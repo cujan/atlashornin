@@ -10,7 +10,7 @@ abstract class Repository extends Nette\Object
     /** @var Nette\Database\Connection */
     protected $connection;
 
-    public function __construct(Nette\Database\Connection $db)
+    public function __construct(Nette\Database\Context $db)
     {
         $this->connection = $db;
     }

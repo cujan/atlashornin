@@ -1,22 +1,36 @@
-<?php //netteCache[01]000448a:2:{s:4:"time";s:21:"0.89251600 1391377186";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:133:"C:\Program Files (x86)\EasyPHP-DevServer-13.1VC11\data\localweb\projects\atlasHornin\app\AdminModule\templates\Homepage\default.latte";i:2;i:1391377184;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
+<?php //netteCache[01]000448a:2:{s:4:"time";s:21:"0.55998500 1391457666";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:133:"C:\Program Files (x86)\EasyPHP-DevServer-13.1VC11\data\localweb\projects\atlasHornin\app\AdminModule\templates\Homepage\default.latte";i:2;i:1391457660;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
 
 // source file: C:\Program Files (x86)\EasyPHP-DevServer-13.1VC11\data\localweb\projects\atlasHornin\app\AdminModule\templates\Homepage\default.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'iz8phv9xdb')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, '9dcqng2wr1')
 ;
 // prolog Nette\Latte\Macros\UIMacros
 //
 // block content
 //
-if (!function_exists($_l->blocks['content'][] = '_lbe815a4c867_content')) { function _lbe815a4c867_content($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['content'][] = '_lba760bd8cae_content')) { function _lba760bd8cae_content($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div id="banner">
 <?php call_user_func(reset($_l->blocks['title']), $_l, get_defined_vars())  ?>
 </div>
 
 <div id="content">
-	
+<h2>
+	<a href="<?php echo htmlSpecialChars($_control->link("ciselnikPodskupina:default")) ?>
+">Ciselnik podskupina</a><br>
+	<a href="<?php echo htmlSpecialChars($_control->link("ciselnikSkupina:default")) ?>
+">Ciselnik skupina</a><br>
+	<a href="<?php echo htmlSpecialChars($_control->link("ciselnikStruktura:default")) ?>
+">Ciselnik struktura</a><br>
+	<a href="<?php echo htmlSpecialChars($_control->link("ciselnikTextura:default")) ?>
+">Ciselnik textura</a><br>
+	<a href="<?php echo htmlSpecialChars($_control->link("lokalitaSlovensko:default")) ?>
+">Lokalita Slovensko</a>
+    
+    
+    
+</h2>	
     
     
     
@@ -28,15 +42,15 @@ if (!function_exists($_l->blocks['content'][] = '_lbe815a4c867_content')) { func
 //
 // block title
 //
-if (!function_exists($_l->blocks['title'][] = '_lb0f7895bb86_title')) { function _lb0f7895bb86_title($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
-?>	<h1>Congratulations! ADMIN</h1>
+if (!function_exists($_l->blocks['title'][] = '_lbbabfc1f294_title')) { function _lbbabfc1f294_title($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+?>	<h1>ADMIN</h1>
 <?php
 }}
 
 //
 // block scripts
 //
-if (!function_exists($_l->blocks['scripts'][] = '_lb184f742386_scripts')) { function _lb184f742386_scripts($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['scripts'][] = '_lb96ea078c15_scripts')) { function _lb96ea078c15_scripts($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ;Nette\Latte\Macros\UIMacros::callBlockParent($_l, 'scripts', get_defined_vars()) ?>
 <script src="http://jush.sourceforge.net/jush.js"></script>
 <script>
@@ -55,7 +69,7 @@ if (!function_exists($_l->blocks['scripts'][] = '_lb184f742386_scripts')) { func
 //
 // block head
 //
-if (!function_exists($_l->blocks['head'][] = '_lb03d485a2c3_head')) { function _lb03d485a2c3_head($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['head'][] = '_lba6d91e5968_head')) { function _lba6d91e5968_head($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><style>
 	html { overflow-y: scroll; }
 	body { font: 14px/1.65 Verdana, "Geneva CE", lucida, sans-serif; background: #3484d2; color: #333; margin: 38px auto; max-width: 940px; min-width: 770px; }
