@@ -15,6 +15,10 @@ nette:
 		errorPresenter: Error
 		mapping:
 			*: *Module\*Presenter
+	#database:
+	#	dsn: 'mysql:host=87.197.23.74;dbname=atlasHornin'
+	#	user: 'cujan'
+	#	password: 'cujan'
 
 	session:
 		expiration: 14 days

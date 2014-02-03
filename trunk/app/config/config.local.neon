@@ -2,8 +2,8 @@ parameters:
 
 nette:
 	database:
-		dsn: 'mysql:host=localhost;dbname=test'
-		user:
-		password:
+		dsn: 'mysql:host=87.197.23.74;dbname=atlasHornin'
+		user: cujan
+		password: cujan
 		options:
 			lazy: yes

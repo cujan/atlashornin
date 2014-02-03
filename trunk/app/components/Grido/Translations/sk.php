@@ -12,7 +12,7 @@
 return array(
     'You can use <, <=, >, >=, <>. e.g. ">= %d"' => 'Môžete použiť <, <=, >, >=, <>. Napr.: ">= %d"',
     'Select some row' => 'Vyberte riadok',
-    'Invert' => 'Obrátit výber',
+    'Invert' => 'Obrátiť výber',
     'Items %d - %d of %d' => 'Položky %d - %d z %d',
     'Previous' => 'Predchádzajúci',
     'Next' => 'Ďalší',
