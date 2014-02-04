@@ -30,7 +30,7 @@ services:
 	router: @App\RouterFactory::createRouter
 
 	ciselnikPodskupinaRepository: Todo\CiselnikPodskupinaRepository
-	cislenikSkupinaRepository:  Todo\CiselnikSkupinaRepository
+	ciselnikSkupinaRepository:  Todo\CiselnikSkupinaRepository
 	ciselnikStrukturaRepository:	Todo\CiselnikStrukturaRepository
 	ciselnikTexturaRepository:  Todo\CiselnikTexturaRepository
 	lokalitaSlovenskoRepository:	Todo\LokalitaSlovenskoRepository

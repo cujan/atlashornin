@@ -1,17 +1,20 @@
-<?php //netteCache[01]000455a:2:{s:4:"time";s:21:"0.83785500 1391457611";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:140:"C:\Program Files (x86)\EasyPHP-DevServer-13.1VC11\data\localweb\projects\atlasHornin\app\AdminModule\templates\CiselnikTextura\default.latte";i:2;i:1391457577;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
+<?php //netteCache[01]000455a:2:{s:4:"time";s:21:"0.12336200 1391536763";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:140:"C:\Program Files (x86)\EasyPHP-DevServer-13.1VC11\data\localweb\projects\atlasHornin\app\AdminModule\templates\CiselnikTextura\default.latte";i:2;i:1391536759;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
 
 // source file: C:\Program Files (x86)\EasyPHP-DevServer-13.1VC11\data\localweb\projects\atlasHornin\app\AdminModule\templates\CiselnikTextura\default.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, '9hv6uij4i9')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 's5ll91qyhy')
 ;
 // prolog Nette\Latte\Macros\UIMacros
 //
 // block content
 //
-if (!function_exists($_l->blocks['content'][] = '_lb26d3b97830_content')) { function _lb26d3b97830_content($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
-?>textura<?php
+if (!function_exists($_l->blocks['content'][] = '_lbbe313ea979_content')) { function _lbbe313ea979_content($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+?>ciselnik textura
+<h2><a href="<?php echo htmlSpecialChars($_control->link("ciselnikPodskupina:add")) ?>
+">Pridaj</a></h2>
+<?php $_ctrl = $_control->getComponent("gridCiselnikPodskupina"); if ($_ctrl instanceof Nette\Application\UI\IRenderable) $_ctrl->redrawControl(NULL, FALSE); $_ctrl->render() ;
 }}
 
 //

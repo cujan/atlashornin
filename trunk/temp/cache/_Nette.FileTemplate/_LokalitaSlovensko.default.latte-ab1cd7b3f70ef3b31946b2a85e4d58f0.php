@@ -1,17 +1,20 @@
-<?php //netteCache[01]000457a:2:{s:4:"time";s:21:"0.95820600 1391457617";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:142:"C:\Program Files (x86)\EasyPHP-DevServer-13.1VC11\data\localweb\projects\atlasHornin\app\AdminModule\templates\LokalitaSlovensko\default.latte";i:2;i:1391457586;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
+<?php //netteCache[01]000457a:2:{s:4:"time";s:21:"0.49776600 1391536962";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:142:"C:\Program Files (x86)\EasyPHP-DevServer-13.1VC11\data\localweb\projects\atlasHornin\app\AdminModule\templates\LokalitaSlovensko\default.latte";i:2;i:1391536777;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
 
 // source file: C:\Program Files (x86)\EasyPHP-DevServer-13.1VC11\data\localweb\projects\atlasHornin\app\AdminModule\templates\LokalitaSlovensko\default.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'emnjrkeg5y')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'uz9a6hqjdp')
 ;
 // prolog Nette\Latte\Macros\UIMacros
 //
 // block content
 //
-if (!function_exists($_l->blocks['content'][] = '_lb4c7c5d0f95_content')) { function _lb4c7c5d0f95_content($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
-?>lokalita slovensko<?php
+if (!function_exists($_l->blocks['content'][] = '_lb3b968c467a_content')) { function _lb3b968c467a_content($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+?>ciselnik lokalita slovensko
+<h2><a href="<?php echo htmlSpecialChars($_control->link("ciselnikPodskupina:add")) ?>
+">Pridaj</a></h2>
+<?php $_ctrl = $_control->getComponent("gridCiselnikPodskupina"); if ($_ctrl instanceof Nette\Application\UI\IRenderable) $_ctrl->redrawControl(NULL, FALSE); $_ctrl->render() ;
 }}
 
 //
