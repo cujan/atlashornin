@@ -15,11 +15,17 @@ use Nette,
 class HorninaPresenter extends \BasePresenter
 {
 	private $horninaRepository;
+	private $ciselnikSkupinaRepository;
+	private $ciselnikFarbaRepository;
+	private $ciselnikPodskupinaRepository;
 	
 	
 	protected function startup() {
 	    parent::startup();
 	    $this->horninaRepository = $this->context->horninaRepository;
+	    $this->ciselnikSkupinaRepository = $this->context->ciselnikSkupinaRepository;
+	    $this->ciselnikFarbaRepository = $this->context->ciselnikFarbaRepository;
+	    $this->ciselnikPodskupinaRepository = $this->context->ciselnikPodskupinaRepository;
 	}
 
 		public function renderDefault()
@@ -74,7 +80,10 @@ class HorninaPresenter extends \BasePresenter
 	    $grid->filterRenderType = Filter::RENDER_INNER;
 	    $grid->setModel($this->horninaRepository->findAll());
 	    $grid->addColumnText('nazov', 'nazov');
-	    $grid->addColumnText('idCiselnikSkupina', 'Skupina');
+	    $grid->addColumnText('idCiselnikSkupina', 'Skupina')->setColumn(function($item){return $item->ciselnikSkupina->nazov;});
+	    $grid->addColumnText('idCiselnikFarba', 'Farba')->setColumn(function($item){return $item->ciselnikFarba->nazov;});
+	    $grid->addColumnText('idCiselnikPodskupina', 'Podskupina')->setColumn(function($item){return $item->ciselnikPodskupina->nazov;});
+	    
 	    
 	    $grid->addActionHref('edit', 'Edituj');
 	    $grid->addActionHref('delete', 'Zmaz');
@@ -84,9 +93,17 @@ class HorninaPresenter extends \BasePresenter
 	/************ formular pre pridanie ***********/
 	
 	protected function createComponentPolozkaForm($name) {
+	   $skupina = $this->ciselnikSkupinaRepository->findAll()->fetchPairs('id','nazov');
+   	   $farba = $this->ciselnikFarbaRepository->findAll()->fetchPairs('id','nazov');
+	   $podskupina = $this->ciselnikPodskupinaRepository->findAll()->fetchPairs('id','nazov');
+
+	   
 	    
 	    $form = new Form;
-	    $form->addText('nazov', 'Nazov');
+	    $form->addText('nazov', 'Nazov')->setRequired('Zvolte nazov');
+	    $form->addSelect('idCiselnikSkupina','Skupina',$skupina);
+	    $form->addSelect('idCiselnikFarba','Farba',$farba);
+	    $form->addSelect('idCiselnikPodskupina','Podskupina',$podskupina);
 	    
 	    
 	    $form->addSubmit('uloz','Uloz')->onClick[]=  callback($this, 'nazovFormSubmitted');
