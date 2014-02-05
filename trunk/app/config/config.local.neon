@@ -2,7 +2,7 @@ parameters:
 
 nette:
 	database:
-		dsn: 'mysql:host=87.197.23.74;dbname=atlasHornin'
+		dsn: 'mysql:host=192.168.1.1;dbname=atlasHornin'
 		user: cujan
 		password: cujan
 		options:

@@ -34,3 +34,5 @@ services:
 	ciselnikStrukturaRepository:	Todo\CiselnikStrukturaRepository
 	ciselnikTexturaRepository:  Todo\CiselnikTexturaRepository
 	lokalitaSlovenskoRepository:	Todo\LokalitaSlovenskoRepository
+	ciselnikFarbaRepository:  Todo\CiselnikFarbaRepository
+	horninaRepository:  Todo\HorninaRepository
