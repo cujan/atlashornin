@@ -1,16 +1,16 @@
-<?php //netteCache[01]000432a:2:{s:4:"time";s:21:"0.15312400 1391606955";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:117:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\AdminModule\templates\Homepage\default.latte";i:2;i:1391606919;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
+<?php //netteCache[01]000432a:2:{s:4:"time";s:21:"0.29171600 1391674020";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:117:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\AdminModule\templates\Homepage\default.latte";i:2;i:1391674017;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
 
 // source file: C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\AdminModule\templates\Homepage\default.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, '7x6qk1w4ng')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'm0zx1prm10')
 ;
 // prolog Nette\Latte\Macros\UIMacros
 //
 // block content
 //
-if (!function_exists($_l->blocks['content'][] = '_lbd580cedadc_content')) { function _lbd580cedadc_content($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['content'][] = '_lb3ecf97f1a9_content')) { function _lb3ecf97f1a9_content($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><div id="banner">
 <?php call_user_func(reset($_l->blocks['title']), $_l, get_defined_vars())  ?>
 </div>
@@ -29,7 +29,9 @@ if (!function_exists($_l->blocks['content'][] = '_lbd580cedadc_content')) { func
 ">Lokalita Slovensko</a><br>
 	<a href="<?php echo htmlSpecialChars($_control->link("ciselnikFarba:default")) ?>
 ">Cislenik Farba</a><br>
-	<a href="<?php echo htmlSpecialChars($_control->link("hornina:default")) ?>">Hornina</a>
+	<a href="<?php echo htmlSpecialChars($_control->link("hornina:default")) ?>">Hornina</a><br>
+	<a href="<?php echo htmlSpecialChars($_control->link("horninaObrazok:default")) ?>
+">Obrazok - hornina</a>
     
     
     
@@ -45,7 +47,7 @@ if (!function_exists($_l->blocks['content'][] = '_lbd580cedadc_content')) { func
 //
 // block title
 //
-if (!function_exists($_l->blocks['title'][] = '_lbd360806bdc_title')) { function _lbd360806bdc_title($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['title'][] = '_lb3455594666_title')) { function _lb3455594666_title($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?>	<h1>ADMIN</h1>
 <?php
 }}
@@ -53,7 +55,7 @@ if (!function_exists($_l->blocks['title'][] = '_lbd360806bdc_title')) { function
 //
 // block scripts
 //
-if (!function_exists($_l->blocks['scripts'][] = '_lb4558168f3f_scripts')) { function _lb4558168f3f_scripts($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['scripts'][] = '_lb997906b9ce_scripts')) { function _lb997906b9ce_scripts($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ;Nette\Latte\Macros\UIMacros::callBlockParent($_l, 'scripts', get_defined_vars()) ?>
 <script src="http://jush.sourceforge.net/jush.js"></script>
 <script>
@@ -72,7 +74,7 @@ if (!function_exists($_l->blocks['scripts'][] = '_lb4558168f3f_scripts')) { func
 //
 // block head
 //
-if (!function_exists($_l->blocks['head'][] = '_lb1754e21e63_head')) { function _lb1754e21e63_head($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['head'][] = '_lb3210ee77c6_head')) { function _lb3210ee77c6_head($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><style>
 	html { overflow-y: scroll; }
 	body { font: 14px/1.65 Verdana, "Geneva CE", lucida, sans-serif; background: #3484d2; color: #333; margin: 38px auto; max-width: 940px; min-width: 770px; }

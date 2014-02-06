@@ -36,3 +36,4 @@ services:
 	lokalitaSlovenskoRepository:	Todo\LokalitaSlovenskoRepository
 	ciselnikFarbaRepository:  Todo\CiselnikFarbaRepository
 	horninaRepository:  Todo\HorninaRepository
+	horninaObrazokRepository:   Todo\HorninaObrazokRepository
