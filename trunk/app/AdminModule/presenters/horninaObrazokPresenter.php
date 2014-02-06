@@ -94,9 +94,17 @@ class horninaObrazokPresenter extends \BasePresenter {
 	//vola sa po uspesnom odoslani formulara
 	public function  nazovFormSubmitted($button)
 	{
-	    $values = $button->getForm()->getValues();
+	
+	 $values = $button->getForm()->getValues();
 	    //ziska nazov subor
-	$suborNazov =$values->nazovSuboru->getName( );
+	
+	 $subor = $values['nazovSuboru'];
+	 $name = $subor->getName();
+	 
+	 $suborNazov =$values->nazovSuboru->getName( );
+	
+
+
 	//unset($values->nazovSuboru);
 	//prida nazov suboru do pola $values
 	$values["nazovSuboru"]=$suborNazov;
@@ -119,12 +127,12 @@ class horninaObrazokPresenter extends \BasePresenter {
 		$this->flashMessage('Nazov upraveny');
 	  } else {
 		$this->horninaObrazokRepository->findAll()->insert($values);
+		$subor->move( "hornina/$name");
 		$this->flashMessage('Nazov pridany');
 		
 	    }
 	    $this->redirect('default');
-	    //dump($values);
-	    //dump($subor);
+	    
 	}
 
 	public function cancelFormSubmitted(){
