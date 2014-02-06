@@ -1,17 +1,18 @@
-<?php //netteCache[01]000431a:2:{s:4:"time";s:21:"0.23312400 1391606985";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:116:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\AdminModule\templates\Hornina\default.latte";i:2;i:1391606983;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
+<?php //netteCache[01]000431a:2:{s:4:"time";s:21:"0.32571600 1391673968";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:116:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\AdminModule\templates\Hornina\default.latte";i:2;i:1391670764;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
 
 // source file: C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\AdminModule\templates\Hornina\default.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'jdmekfxabt')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'xg1d8whhl5')
 ;
 // prolog Nette\Latte\Macros\UIMacros
 //
 // block content
 //
-if (!function_exists($_l->blocks['content'][] = '_lb178c1e44fd_content')) { function _lb178c1e44fd_content($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['content'][] = '_lbf24d881473_content')) { function _lbf24d881473_content($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?>Hornina
+<h2><a href="<?php echo htmlSpecialChars($_control->link("hornina:add")) ?>">Pridaj</a></h2>
 <?php $_ctrl = $_control->getComponent("gridCiselnikPodskupina"); if ($_ctrl instanceof Nette\Application\UI\IRenderable) $_ctrl->redrawControl(NULL, FALSE); $_ctrl->render() ;
 }}
 
