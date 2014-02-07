@@ -1,49 +1,15 @@
-<?php //netteCache[01]000423a:2:{s:4:"time";s:21:"0.26231800 1391506909";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:108:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\FrontModule\templates\@layout.latte";i:2;i:1391506854;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
+<?php //netteCache[01]000423a:2:{s:4:"time";s:21:"0.69951700 1391766411";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:108:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\FrontModule\templates\@layout.latte";i:2;i:1391765873;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
 
 // source file: C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\FrontModule\templates\@layout.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'yv7zg1k3q8')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'bqxqhb6zk3')
 ;
 // prolog Nette\Latte\Macros\UIMacros
-//
-// block title
-//
-if (!function_exists($_l->blocks['title'][] = '_lb1c2f3031bf_title')) { function _lb1c2f3031bf_title($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
-?>Nette Application Skeleton<?php
-}}
 
-//
-// block head
-//
-if (!function_exists($_l->blocks['head'][] = '_lbf7d54c1559_head')) { function _lbf7d54c1559_head($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
-;
-}}
-
-//
-// block scripts
-//
-if (!function_exists($_l->blocks['scripts'][] = '_lbb3cb513329_scripts')) { function _lbb3cb513329_scripts($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
-?>	<script src="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/js/jquery.js"></script>
-	<script src="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/js/netteForms.js"></script>
-	<script src="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/js/main.js"></script>
-<?php
-}}
-
-//
-// end of blocks
-//
-
-// template extending and snippets support
-
-$_l->extends = empty($template->_extended) && isset($_control) && $_control instanceof Nette\Application\UI\Presenter ? $_control->findLayoutTemplateFile() : NULL; $template->_extended = $_extended = TRUE;
-
-
-if ($_l->extends) {
-	ob_start();
-
-} elseif (!empty($_control->snippetMode)) {
+// snippets support
+if (!empty($_control->snippetMode)) {
 	return Nette\Latte\Macros\UIMacros::renderSnippets($_control, $_l, get_defined_vars());
 }
 
@@ -51,33 +17,123 @@ if ($_l->extends) {
 // main template
 //
 ?>
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta charset="utf-8">
-	<meta name="description" content="">
-<?php if (isset($robots)) { ?>	<meta name="robots" content="<?php echo htmlSpecialChars($robots) ?>">
-<?php } ?>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/js/netteForms.js"></script>
+    <script type="text/javascript" src="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/js/ajax.js"></script>
+    <script type="text/javascript" src="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/js/jquery_hoverpulse.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Internetový atlas hornín - Stredná odborná škola lesnícka</title>
+<link href="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/css/style.css" rel="stylesheet" type="text/css">
 
-	<title><?php if ($_l->extends) { ob_end_clean(); return Nette\Latte\Macros\CoreMacros::includeTemplate($_l->extends, get_defined_vars(), $template)->render(); }
-ob_start(); call_user_func(reset($_l->blocks['title']), $_l, get_defined_vars()); echo $template->upper($template->striptags(ob_get_clean()))  ?></title>
+<!--[if lte IE 6]>
+	<script type="text/javascript" src="supersleight-min.js"></script>
+    <link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
 
-	<link rel="stylesheet" media="screen,projection,tv" href="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/css/screen.css">
-	<link rel="stylesheet" media="print" href="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/css/print.css">
-	<link rel="shortcut icon" href="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/favicon.ico">
-	<?php call_user_func(reset($_l->blocks['head']), $_l, get_defined_vars())  ?>
 
 </head>
 
 <body>
-	<script> document.documentElement.className+=' js' </script>
+<script>
+$(document).ready(function() {
+    $('div.thumb img').hoverpulse({
+        size: 100,  // number of pixels to pulse element (in each direction)
+        speed: 400 // speed of the animation 
+    });
+});
+</script>
+    
+<div id="main"><!-- Main starts here -->
+<div id="header"><!-- Header starts here -->
+	<!--<div class="searchBar">
+        <div class="search">
+        	<div class="txt"><input type="text" /></div>
+            <div class="searchBt"><input type="button" value="search" /></div>
+        </div>
+    	<div class="signIn">Prihlásenie</div>
+    <!--</div>-->
+    <!--
+    <div class="logo">
+    	<a href="#"><img src="images/logoo.png" alt="" /></a>
+    </div>
+    -->
+    <div class="menu">
+    	<ul id="menu">
+        	<li class="home"><a href="<?php echo htmlSpecialChars($_control->link("homepage:default")) ?>
+">Domov</a></li>
+		<li class="commit"><a href="<?php echo htmlSpecialChars($_control->link("hornina:default")) ?>
+">Horniny</a></li>
+		
+            <!--<li class="organic"><a href="#">organic vegetables</a></li>
+            <li class="contact"><a href="#">contact us</a></li>-->
+    	</ul>
+    </div>
+     <!--<div class="subs">
+    	<p>SUBCRIBE to RSS</p><img src="images/rss.png" alt="" />
+    </div>-->
+</div><!-- Header ends here -->
 
-<?php $iterations = 0; foreach ($flashes as $flash) { ?>	<div class="flash <?php echo htmlSpecialChars($flash->type) ?>
-"><?php echo Nette\Templating\Helpers::escapeHtml($flash->message, ENT_NOQUOTES) ?></div>
-<?php $iterations++; } ?>
+<div class="clear"></div>
 
+<div id="contentTop"></div><!-- Content starts here -->
+<div id="content">
+	
+	<div class="welcomeHolder">
+    <div class="welcome">
+    	<!--<img src="images/img01.jpg" alt="" />-->
+		<h1>Internetový atlas hornín - Stredná odborná škola lesnícka</h1>
+                 
+	<p align="right"><!--<input type="button" value="VIEW OUR PACKAGES" class="view" />--></p> 
+	
+         <div class="clear"></div>
+    </div>
+    <div class="welcomeBottom"></div>
+    </div>
+
+    <div class="heading">&nbsp;</div>
+    <div class="organic">
+    	
+    </div>
+    
+    <div class="space"></div>
+    <!--zacnan obsah-->
+     <div class="organic">
+    	
 <?php Nette\Latte\Macros\UIMacros::callBlock($_l, 'content', $template->getParameters()) ?>
+        
+        
+    </div>
+    <!--konci obsah-->
+<div class="clear"></div>
 
-<?php call_user_func(reset($_l->blocks['scripts']), $_l, get_defined_vars())  ?>
+<div class="hr"></div>
+<div class="space"></div>
+<div id="footer"><!-- Footer starts here -->
+
+<div class="contactHeading">Kontakt</div>
+<div class="footerHolder">
+	<div class="footerLeft">
+    	<p class="left">Adaresa:</p>
+        <p class="right">Kollárova 10<br>Prešov</p>
+    </div>
+    
+    <div class="footerRight">
+    	<p class="left">Email: </p>
+	    <p class="right"> holubjan@gmail.com</p>
+    </div>
+    <div class="clear"></div>
+</div>
+</div><!-- Footer ends here -->
+</div>
+<div id="contentBottom"></div><!-- Content ends here -->
+
+<div class="bottomHolder">
+<div class="copy">Copyright 2012</div>
+<div class="design"><a href="www.slspo.sk">Powered by: Mgr. Holub Ján</a></div>
+</div>
+</div><!-- Main ends here -->
 </body>
 </html>
