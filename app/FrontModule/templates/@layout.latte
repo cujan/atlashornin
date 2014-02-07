@@ -1,37 +1,118 @@
-{**
- * My Application layout template.
- *
- * @param string   $basePath web base path
- * @param string   $robots   tell robots how to index the content of a page (optional)
- * @param array    $flashes  flash messages
- *}
-
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta charset="utf-8">
-	<meta name="description" content="">
-	<meta name="robots" content="{$robots}" n:ifset="$robots">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="{$basePath}/js/netteForms.js"></script>
+    <script type="text/javascript" src="{$basePath}/js/ajax.js"></script>
+    <script type="text/javascript" src="{$basePath}/js/jquery_hoverpulse.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Internetový atlas hornín - Stredná odborná škola lesnícka</title>
+<link href="{$basePath}/css/style.css" rel="stylesheet" type="text/css" />
 
-	<title>{block title|striptags|upper}Nette Application Skeleton{/block}</title>
+<!--[if lte IE 6]>
+	<script type="text/javascript" src="supersleight-min.js"></script>
+    <link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
 
-	<link rel="stylesheet" media="screen,projection,tv" href="{$basePath}/css/screen.css">
-	<link rel="stylesheet" media="print" href="{$basePath}/css/print.css">
-	<link rel="shortcut icon" href="{$basePath}/favicon.ico">
-	{block head}{/block}
+
 </head>
 
 <body>
-	<script> document.documentElement.className+=' js' </script>
+<script>
+$(document).ready(function() {
+    $('div.thumb img').hoverpulse({
+        size: 100,  // number of pixels to pulse element (in each direction)
+        speed: 400 // speed of the animation 
+    });
+});
+</script>
+    
+<div id="main"><!-- Main starts here -->
+<div id="header"><!-- Header starts here -->
+	<!--<div class="searchBar">
+        <div class="search">
+        	<div class="txt"><input type="text" /></div>
+            <div class="searchBt"><input type="button" value="search" /></div>
+        </div>
+    	<div class="signIn">Prihlásenie</div>
+    <!--</div>-->
+    <!--
+    <div class="logo">
+    	<a href="#"><img src="images/logoo.png" alt="" /></a>
+    </div>
+    -->
+    <div class="menu">
+    	<ul id="menu">
+        	<li class="home"><a n:href="homepage:default">Domov</a></li>
+		<li class="commit"><a n:href="hornina:default">Horniny</a></li>
+		
+            <!--<li class="organic"><a href="#">organic vegetables</a></li>
+            <li class="contact"><a href="#">contact us</a></li>-->
+    	</ul>
+    </div>
+     <!--<div class="subs">
+    	<p>SUBCRIBE to RSS</p><img src="images/rss.png" alt="" />
+    </div>-->
+</div><!-- Header ends here -->
 
-	<div n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</div>
+<div class="clear"></div>
 
-	{include content}
+<div id="contentTop"></div><!-- Content starts here -->
+<div id="content">
+	
+	<div class="welcomeHolder">
+    <div class="welcome">
+    	<!--<img src="images/img01.jpg" alt="" />-->
+		<h1>Internetový atlas hornín - Stredná odborná škola lesnícka</h1>
+                 
+	<p align="right"><!--<input type="button" value="VIEW OUR PACKAGES" class="view" />--></p> 
+	
+         <div class="clear"></div>
+    </div>
+    <div class="welcomeBottom"></div>
+    </div>
 
-	{block scripts}
-	<script src="{$basePath}/js/jquery.js"></script>
-	<script src="{$basePath}/js/netteForms.js"></script>
-	<script src="{$basePath}/js/main.js"></script>
-	{/block}
+    <div class="heading">&nbsp;</div>
+    <div class="organic">
+    	
+    </div>
+    
+    <div class="space"></div>
+    <!--zacnan obsah-->
+     <div class="organic">
+    	
+        {include #content}
+        
+        
+    </div>
+    <!--konci obsah-->
+<div class="clear"></div>
+
+<div class="hr"></div>
+<div class="space"></div>
+<div id="footer"><!-- Footer starts here -->
+
+<div class="contactHeading">Kontakt</div>
+<div class="footerHolder">
+	<div class="footerLeft">
+    	<p class="left">Adaresa:</p>
+        <p class="right">Kollárova 10<br />Prešov</p>
+    </div>
+    
+    <div class="footerRight">
+    	<p class="left">Email: </p>
+	    <p class="right"> holubjan@gmail.com</p>
+    </div>
+    <div class="clear"></div>
+</div>
+</div><!-- Footer ends here -->
+</div>
+<div id="contentBottom"></div><!-- Content ends here -->
+
+<div class="bottomHolder">
+<div class="copy">Copyright 2012</div>
+<div class="design"><a href="www.slspo.sk">Powered by: Mgr. Holub Ján</a></div>
+</div>
+</div><!-- Main ends here -->
 </body>
 </html>
