@@ -1,0 +1,53 @@
+{* Latte template *}
+
+{block content}
+<h1>Detail</h1>
+
+<table id="detailTab">
+    <tr>
+	<th>Názov</th>
+	<td>{$hornina->nazov}</td>
+    </tr>
+    <tr>
+	<th>Skupina</th>
+	<td>{$hornina->ciselnikskupina->nazov}</td>
+    </tr>
+    <tr>
+	<th>Farba</th>
+	<td>{$hornina->ciselnikfarba->nazov}</td>
+    </tr>
+    <tr>
+	<th>Podskupina</th>
+	<td>{$hornina->ciselnikpodskupina->nazov}</td>
+    </tr>
+
+</table>
+    
+
+
+
+<table id="obrazokPopis">
+{foreach $obrazky as $obrazok}
+   {first 4}<tr>{/first}
+       
+       <td align ="center">
+           
+            <div id="thumbs">
+            <div class="thumb">    
+           <image src="/atlasHornin/www/hornina/{$obrazok -> nazovSuboru}" width="200" height="200" alt="{$obrazok -> popis}">
+            </div>
+            </div>
+           
+           
+           <br>
+   {$obrazok ->popis}<br>
+   </td>
+{last 4}</tr>{/last}
+  {last}
+            {if (count($obrazky) % 4) != 0}
+                </tr>
+            {/if}
+        {/last}
+  
+{/foreach}    
+</table>

@@ -1,1 +1,1 @@
-<?php //netteCache[01]000070a:2:{s:4:"time";s:21:"0.68892200 1391631186";s:10:"serialized";b:1;}?>a:2:{i:0;b:0;s:2:"id";b:1;}
+<?php //netteCache[01]000070a:2:{s:4:"time";s:21:"0.12651300 1392117519";s:10:"serialized";b:1;}?>a:8:{s:2:"id";b:1;s:5:"nazov";b:1;s:15:"ciselnikskupina";b:0;s:17:"idCiselnikSkupina";b:1;s:13:"ciselnikfarba";b:0;s:15:"idCiselnikFarba";b:1;s:18:"ciselnikpodskupina";b:0;s:20:"idCiselnikPodskupina";b:1;}
