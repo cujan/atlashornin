@@ -1,10 +1,10 @@
-<?php //netteCache[01]000423a:2:{s:4:"time";s:21:"0.69951700 1391766411";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:108:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\FrontModule\templates\@layout.latte";i:2;i:1391765873;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
+<?php //netteCache[01]000423a:2:{s:4:"time";s:21:"0.98151300 1392117511";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:108:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\FrontModule\templates\@layout.latte";i:2;i:1391976035;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
 
 // source file: C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\FrontModule\templates\@layout.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'bqxqhb6zk3')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'upzqysxc5e')
 ;
 // prolog Nette\Latte\Macros\UIMacros
 
@@ -24,6 +24,7 @@ if (!empty($_control->snippetMode)) {
     <script type="text/javascript" src="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/js/netteForms.js"></script>
     <script type="text/javascript" src="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/js/ajax.js"></script>
     <script type="text/javascript" src="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/js/jquery_hoverpulse.js"></script>
+    <link rel="stylesheet" media="screen,projection,tv" href="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/css/grido.css">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Internetový atlas hornín - Stredná odborná škola lesnícka</title>
 <link href="<?php echo htmlSpecialChars($template->safeurl($basePath)) ?>/css/style.css" rel="stylesheet" type="text/css">

@@ -1,16 +1,16 @@
-<?php //netteCache[01]000415a:2:{s:4:"time";s:21:"0.14121800 1391596736";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:100:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\components\Grido\Grid.latte";i:2;i:1391506854;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
+<?php //netteCache[01]000415a:2:{s:4:"time";s:21:"0.47071300 1391853541";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:100:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\components\Grido\Grid.latte";i:2;i:1391506854;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
 
 // source file: C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\components\Grido\Grid.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'i5bhs7ie22')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'ft7xhatkx0')
 ;
 // prolog Nette\Latte\Macros\UIMacros
 //
 // block _grid
 //
-if (!function_exists($_l->blocks['_grid'][] = '_lb3021d2593f__grid')) { function _lb3021d2593f__grid($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('grid', FALSE)
+if (!function_exists($_l->blocks['_grid'][] = '_lb95a761f336__grid')) { function _lb95a761f336__grid($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v; $_control->redrawControl('grid', FALSE)
 ;$form->getElementPrototype()->class[] = 'ajax grido';
 
     $operation = $control->hasOperation();
@@ -46,7 +46,7 @@ if (!function_exists($_l->blocks['_grid'][] = '_lb3021d2593f__grid')) { function
 //
 // block outerFilter
 //
-if (!function_exists($_l->blocks['outerFilter'][] = '_lb12fc6fd3a7_outerFilter')) { function _lb12fc6fd3a7_outerFilter($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['outerFilter'][] = '_lbd01ef129a2_outerFilter')) { function _lbd01ef129a2_outerFilter($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?>    <div class="filter outer">
         <div class="items">
 <?php $iterations = 0; foreach ($filters as $filter) { ?>            <span class="grid-filter-<?php echo htmlSpecialChars($filter->getName()) ?>">
@@ -73,7 +73,7 @@ if (!function_exists($_l->blocks['outerFilter'][] = '_lb12fc6fd3a7_outerFilter')
 //
 // block table
 //
-if (!function_exists($_l->blocks['table'][] = '_lb2950188baa_table')) { function _lb2950188baa_table($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['table'][] = '_lb9e6030d658_table')) { function _lb9e6030d658_table($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ;echo $control->getTablePrototype()->startTag() ?>
 
     <thead>
@@ -155,7 +155,7 @@ if (!function_exists($_l->blocks['table'][] = '_lb2950188baa_table')) { function
 <?php } $iterations = 0; foreach ($columns as $column) { $td = $column->getCellPrototype($row) ?>
                     <?php echo $td->startTag() ?>
 
-<?php if (is_string($column->getCustomRender())) { Nette\Latte\Macros\CoreMacros::includeTemplate($column->getCustomRender(), array('control' => $control, 'presenter' => $control->getPresenter(), 'item' => $row) + $template->getParameters(), $_l->templates['i5bhs7ie22'])->render() ;} else { ?>
+<?php if (is_string($column->getCustomRender())) { Nette\Latte\Macros\CoreMacros::includeTemplate($column->getCustomRender(), array('control' => $control, 'presenter' => $control->getPresenter(), 'item' => $row) + $template->getParameters(), $_l->templates['ft7xhatkx0'])->render() ;} else { ?>
                             <?php echo $column->render($row) ?>
 
 <?php } ?>
@@ -181,7 +181,7 @@ if (!function_exists($_l->blocks['table'][] = '_lb2950188baa_table')) { function
 //
 // block operations
 //
-if (!function_exists($_l->blocks['operations'][] = '_lbe66dec3e33_operations')) { function _lbe66dec3e33_operations($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['operations'][] = '_lb3596b583b4_operations')) { function _lb3596b583b4_operations($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ;if ($operation) { ?>                <span class="operations"  title="<?php echo htmlSpecialChars($template->translate('Select some row')) ?>">
                     <?php echo Nette\Templating\Helpers::escapeHtml($form[Grido\Components\Operation::ID][Grido\Components\Operation::ID]->control, ENT_NOQUOTES) ?>
 
@@ -195,7 +195,7 @@ if (!function_exists($_l->blocks['operations'][] = '_lbe66dec3e33_operations')) 
 //
 // block paginator
 //
-if (!function_exists($_l->blocks['paginator'][] = '_lb6584484532_paginator')) { function _lb6584484532_paginator($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['paginator'][] = '_lb7886280bdb_paginator')) { function _lb7886280bdb_paginator($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ;if ($paginator->steps && $paginator->pageCount > 1) { ?>                <span class="paginator">
 <?php if ($control->page == 1) { ?>
                         <span class="btn btn-default btn-xs btn-mini disabled" href="<?php echo htmlSpecialChars($_control->link("page!", array('page' => $paginator->getPage() - 1))) ?>
@@ -224,7 +224,7 @@ if (!function_exists($_l->blocks['paginator'][] = '_lb6584484532_paginator')) { 
 //
 // block count
 //
-if (!function_exists($_l->blocks['count'][] = '_lb3adb8361d1_count')) { function _lb3adb8361d1_count($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['count'][] = '_lb13cc58af32_count')) { function _lb13cc58af32_count($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?>                <span class="count">
                     <?php echo Nette\Templating\Helpers::escapeHtml(sprintf($template->translate('Items %d - %d of %d'), $paginator->getCountBegin(), $paginator->getCountEnd(), $control->getCount()), ENT_NOQUOTES) ?>
 

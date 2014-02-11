@@ -1,16 +1,16 @@
-<?php //netteCache[01]000442a:2:{s:4:"time";s:21:"0.39131800 1391506951";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:127:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\AdminModule\templates\CiselnikPodskupina\default.latte";i:2;i:1391506854;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
+<?php //netteCache[01]000442a:2:{s:4:"time";s:21:"0.12671300 1391853433";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:127:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\AdminModule\templates\CiselnikPodskupina\default.latte";i:2;i:1391506854;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
 
 // source file: C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\AdminModule\templates\CiselnikPodskupina\default.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'j8utfmimhp')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, '12ejgomqbw')
 ;
 // prolog Nette\Latte\Macros\UIMacros
 //
 // block content
 //
-if (!function_exists($_l->blocks['content'][] = '_lb938ff35c88_content')) { function _lb938ff35c88_content($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['content'][] = '_lb806862fcda_content')) { function _lb806862fcda_content($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?>ciselnik podskupina
 <h2><a href="<?php echo htmlSpecialChars($_control->link("ciselnikPodskupina:add")) ?>
 ">Pridaj</a></h2>
