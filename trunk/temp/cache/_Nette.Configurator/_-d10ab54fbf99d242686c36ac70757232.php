@@ -1,4 +1,4 @@
-<?php //netteCache[01]011526a:2:{s:4:"time";s:21:"0.97851300 1392117510";s:9:"callbacks";a:53:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:91:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\config\config.neon";i:2;i:1391854206;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:97:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\config\config.local.neon";i:2;i:1391670764;}i:2;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:124:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\DI\Extensions\PhpExtension.php";i:2;i:1391506861;}i:3;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:130:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\DI\Extensions\ConstantsExtension.php";i:2;i:1391506860;}i:4;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:126:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\DI\Extensions\NetteExtension.php";i:2;i:1391506860;}i:5;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:131:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\DI\Extensions\ExtensionsExtension.php";i:2;i:1391506860;}i:6;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:111:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\common\Object.php";i:2;i:1391506859;}i:7;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:125:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\DI\Extensions\NetteAccessor.php";i:2;i:1391506861;}i:8;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:123:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Caching\Storages\IJournal.php";i:2;i:1391506860;}i:9;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:126:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Caching\Storages\FileJournal.php";i:2;i:1391506860;}i:10;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:114:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Caching\IStorage.php";i:2;i:1391506860;}i:11;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:126:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Caching\Storages\FileStorage.php";i:2;i:1391506860;}i:12;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:117:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\RequestFactory.php";i:2;i:1391506857;}i:13;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:111:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\IRequest.php";i:2;i:1391506857;}i:14;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\Request.php";i:2;i:1391506857;}i:15;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:112:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\IResponse.php";i:2;i:1391506857;}i:16;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:111:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\Response.php";i:2;i:1391506857;}i:17;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\Context.php";i:2;i:1391506857;}i:18;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\Session.php";i:2;i:1391506857;}i:19;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:119:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Security\IUserStorage.php";i:2;i:1391506865;}i:20;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:114:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\UserStorage.php";i:2;i:1391506857;}i:21;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:111:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Security\User.php";i:2;i:1391506865;}i:22;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:121:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Application\Application.php";i:2;i:1391506863;}i:23;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:127:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Application\IPresenterFactory.php";i:2;i:1391506863;}i:24;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:126:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Application\PresenterFactory.php";i:2;i:1391506862;}i:25;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:117:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Application\IRouter.php";i:2;i:1391506862;}i:26;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Mail\IMailer.php";i:2;i:1391506857;}i:27;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:117:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Mail\SendmailMailer.php";i:2;i:1391506857;}i:28;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:117:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Database\Connection.php";i:2;i:1391506863;}i:29;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:114:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Database\Context.php";i:2;i:1391506864;}i:30;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:93:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\Repository.php";i:2;i:1391451765;}i:31;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\LokalitaSlovenskoRepository.php";i:2;i:1391536023;}i:32;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:106:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\CiselnikFarbaRepository.php";i:2;i:1391625663;}i:33;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:100:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\HorninaRepository.php";i:2;i:1391625663;}i:34;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:107:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\HorninaObrazokRepository.php";i:2;i:1391708716;}i:35;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:108:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\CiselnikTexturaRepository.php";i:2;i:1391536016;}i:36;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\CiselnikStrukturaRepository.php";i:2;i:1391536011;}i:37;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:97:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\router\RouterFactory.php";i:2;i:1391975326;}i:38;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:111:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\CiselnikPodskupinaRepository.php";i:2;i:1391455918;}i:39;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:108:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\CiselnikSkupinaRepository.php";i:2;i:1391536007;}i:40;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:121:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Security\IAuthenticator.php";i:2;i:1391506865;}i:41;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:94:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\UserManager.php";i:2;i:1390051404;}i:42;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\DI\Container.php";i:2;i:1391506861;}i:43;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:134:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Application\Diagnostics\RoutingPanel.php";i:2;i:1391506862;}i:44;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:108:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Forms\Form.php";i:2;i:1391506858;}i:45;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:111:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Caching\Cache.php";i:2;i:1391506860;}i:46;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:138:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Database\Reflection\DiscoveredReflection.php";i:2;i:1391506864;}i:47;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:114:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Database\Helpers.php";i:2;i:1391506864;}i:48;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Latte\Engine.php";i:2;i:1391506867;}i:49;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Mail\Message.php";i:2;i:1391506857;}i:50;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:121:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Templating\FileTemplate.php";i:2;i:1391506864;}i:51;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:117:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Templating\Template.php";i:2;i:1391506864;}i:52;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:128:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Security\Diagnostics\UserPanel.php";i:2;i:1391506865;}}}?><?php
+<?php //netteCache[01]012165a:2:{s:4:"time";s:21:"0.79964800 1392200952";s:9:"callbacks";a:56:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:91:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\config\config.neon";i:2;i:1392200466;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:97:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\config\config.local.neon";i:2;i:1391670764;}i:2;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:124:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\DI\Extensions\PhpExtension.php";i:2;i:1391506861;}i:3;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:130:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\DI\Extensions\ConstantsExtension.php";i:2;i:1391506860;}i:4;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:126:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\DI\Extensions\NetteExtension.php";i:2;i:1391506860;}i:5;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:131:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\DI\Extensions\ExtensionsExtension.php";i:2;i:1391506860;}i:6;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:111:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\common\Object.php";i:2;i:1391506859;}i:7;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:125:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\DI\Extensions\NetteAccessor.php";i:2;i:1391506861;}i:8;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:123:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Caching\Storages\IJournal.php";i:2;i:1391506860;}i:9;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:126:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Caching\Storages\FileJournal.php";i:2;i:1391506860;}i:10;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:114:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Caching\IStorage.php";i:2;i:1391506860;}i:11;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:126:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Caching\Storages\FileStorage.php";i:2;i:1391506860;}i:12;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:117:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\RequestFactory.php";i:2;i:1391506857;}i:13;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:111:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\IRequest.php";i:2;i:1391506857;}i:14;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\Request.php";i:2;i:1391506857;}i:15;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:112:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\IResponse.php";i:2;i:1391506857;}i:16;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:111:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\Response.php";i:2;i:1391506857;}i:17;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\Context.php";i:2;i:1391506857;}i:18;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\Session.php";i:2;i:1391506857;}i:19;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:119:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Security\IUserStorage.php";i:2;i:1391506865;}i:20;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:114:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Http\UserStorage.php";i:2;i:1391506857;}i:21;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:111:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Security\User.php";i:2;i:1391506865;}i:22;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:121:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Application\Application.php";i:2;i:1391506863;}i:23;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:127:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Application\IPresenterFactory.php";i:2;i:1391506863;}i:24;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:126:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Application\PresenterFactory.php";i:2;i:1391506862;}i:25;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:117:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Application\IRouter.php";i:2;i:1391506862;}i:26;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Mail\IMailer.php";i:2;i:1391506857;}i:27;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:117:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Mail\SendmailMailer.php";i:2;i:1391506857;}i:28;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:117:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Database\Connection.php";i:2;i:1391506863;}i:29;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:114:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Database\Context.php";i:2;i:1391506864;}i:30;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:93:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\Repository.php";i:2;i:1391451765;}i:31;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:100:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\HorninaRepository.php";i:2;i:1391625663;}i:32;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:106:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\CiselnikFarbaRepository.php";i:2;i:1391625663;}i:33;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:107:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\HorninaObrazokRepository.php";i:2;i:1391708716;}i:34;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:117:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\HorninaLokalitaSlovenskoRepository.php";i:2;i:1392200930;}i:35;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:107:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\HorninaTexturaRepository.php";i:2;i:1392200786;}i:36;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:109:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\HorninaStrukturaRepository.php";i:2;i:1392200844;}i:37;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\LokalitaSlovenskoRepository.php";i:2;i:1391536023;}i:38;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:108:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\CiselnikTexturaRepository.php";i:2;i:1391536016;}i:39;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:97:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\router\RouterFactory.php";i:2;i:1391975326;}i:40;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:111:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\CiselnikPodskupinaRepository.php";i:2;i:1391455918;}i:41;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:108:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\CiselnikSkupinaRepository.php";i:2;i:1391536007;}i:42;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\CiselnikStrukturaRepository.php";i:2;i:1391536011;}i:43;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:121:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Security\IAuthenticator.php";i:2;i:1391506865;}i:44;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:94:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\model\UserManager.php";i:2;i:1390051404;}i:45;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\DI\Container.php";i:2;i:1391506861;}i:46;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:134:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Application\Diagnostics\RoutingPanel.php";i:2;i:1391506862;}i:47;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:108:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Forms\Form.php";i:2;i:1391506858;}i:48;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:111:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Caching\Cache.php";i:2;i:1391506860;}i:49;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:138:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Database\Reflection\DiscoveredReflection.php";i:2;i:1391506864;}i:50;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:114:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Database\Helpers.php";i:2;i:1391506864;}i:51;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Latte\Engine.php";i:2;i:1391506867;}i:52;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:110:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Mail\Message.php";i:2;i:1391506857;}i:53;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:121:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Templating\FileTemplate.php";i:2;i:1391506864;}i:54;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:117:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Templating\Template.php";i:2;i:1391506864;}i:55;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:128:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\vendor\nette\nette\Nette\Security\Diagnostics\UserPanel.php";i:2;i:1391506865;}}}?><?php
 // source: C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app/config/config.neon 
 // source: C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app/config/config.local.neon 
 
@@ -11,8 +11,11 @@
  * @property Todo\CiselnikStrukturaRepository $ciselnikStrukturaRepository
  * @property Todo\CiselnikTexturaRepository $ciselnikTexturaRepository
  * @property Nette\DI\Container $container
+ * @property Todo\HorninaLokalitaSlovenskoRepository $horninaLokalitaSlovenskoRepository
  * @property Todo\HorninaObrazokRepository $horninaObrazokRepository
  * @property Todo\HorninaRepository $horninaRepository
+ * @property Todo\HorninaStrukturaRepository $horninaStrukturaRepository
+ * @property Todo\HorninaTexturaRepository $horninaTexturaRepository
  * @property Nette\Http\Request $httpRequest
  * @property Nette\Http\Response $httpResponse
  * @property Todo\LokalitaSlovenskoRepository $lokalitaSlovenskoRepository
@@ -42,15 +45,18 @@ class SystemContainer extends Nette\DI\Container
 				'nette.mailer',
 				'nette.database.default',
 				'nette.database.default.context',
-				'lokalitaSlovenskoRepository',
-				'ciselnikFarbaRepository',
 				'horninaRepository',
+				'ciselnikFarbaRepository',
 				'horninaObrazokRepository',
+				'horninaLokalitaSlovenskoRepository',
+				'horninaTexturaRepository',
+				'horninaStrukturaRepository',
+				'lokalitaSlovenskoRepository',
 				'ciselnikTexturaRepository',
-				'ciselnikStrukturaRepository',
 				'ciselnikPodskupinaRepository',
 				'ciselnikSkupinaRepository',
-				'31_Model_UserManager',
+				'ciselnikStrukturaRepository',
+				'34_Model_UserManager',
 				'container',
 			),
 			'nette\\di\\extensions\\netteaccessor' => array('nette'),
@@ -77,26 +83,32 @@ class SystemContainer extends Nette\DI\Container
 			'nette\\database\\connection' => array('nette.database.default'),
 			'nette\\database\\context' => array('nette.database.default.context'),
 			'todo\\repository' => array(
-				'lokalitaSlovenskoRepository',
-				'ciselnikFarbaRepository',
 				'horninaRepository',
+				'ciselnikFarbaRepository',
 				'horninaObrazokRepository',
+				'horninaLokalitaSlovenskoRepository',
+				'horninaTexturaRepository',
+				'horninaStrukturaRepository',
+				'lokalitaSlovenskoRepository',
 				'ciselnikTexturaRepository',
-				'ciselnikStrukturaRepository',
 				'ciselnikPodskupinaRepository',
 				'ciselnikSkupinaRepository',
+				'ciselnikStrukturaRepository',
 			),
-			'todo\\lokalitaslovenskorepository' => array('lokalitaSlovenskoRepository'),
-			'todo\\ciselnikfarbarepository' => array('ciselnikFarbaRepository'),
 			'todo\\horninarepository' => array('horninaRepository'),
+			'todo\\ciselnikfarbarepository' => array('ciselnikFarbaRepository'),
 			'todo\\horninaobrazokrepository' => array('horninaObrazokRepository'),
+			'todo\\horninalokalitaslovenskorepository' => array('horninaLokalitaSlovenskoRepository'),
+			'todo\\horninatexturarepository' => array('horninaTexturaRepository'),
+			'todo\\horninastrukturarepository' => array('horninaStrukturaRepository'),
+			'todo\\lokalitaslovenskorepository' => array('lokalitaSlovenskoRepository'),
 			'todo\\ciselniktexturarepository' => array('ciselnikTexturaRepository'),
-			'todo\\ciselnikstrukturarepository' => array('ciselnikStrukturaRepository'),
-			'app\\routerfactory' => array('28_App_RouterFactory'),
+			'app\\routerfactory' => array('30_App_RouterFactory'),
 			'todo\\ciselnikpodskupinarepository' => array('ciselnikPodskupinaRepository'),
 			'todo\\ciselnikskupinarepository' => array('ciselnikSkupinaRepository'),
-			'nette\\security\\iauthenticator' => array('31_Model_UserManager'),
-			'model\\usermanager' => array('31_Model_UserManager'),
+			'todo\\ciselnikstrukturarepository' => array('ciselnikStrukturaRepository'),
+			'nette\\security\\iauthenticator' => array('34_Model_UserManager'),
+			'model\\usermanager' => array('34_Model_UserManager'),
 			'nette\\di\\container' => array('container'),
 		),
 	);
@@ -124,7 +136,7 @@ class SystemContainer extends Nette\DI\Container
 	/**
 	 * @return App\RouterFactory
 	 */
-	public function createService__28_App_RouterFactory()
+	public function createService__30_App_RouterFactory()
 	{
 		$service = new App\RouterFactory;
 		return $service;
@@ -134,7 +146,7 @@ class SystemContainer extends Nette\DI\Container
 	/**
 	 * @return Model\UserManager
 	 */
-	public function createService__31_Model_UserManager()
+	public function createService__34_Model_UserManager()
 	{
 		$service = new Model\UserManager($this->getService('nette.database.default.context'));
 		return $service;
@@ -225,6 +237,16 @@ class SystemContainer extends Nette\DI\Container
 
 
 	/**
+	 * @return Todo\HorninaLokalitaSlovenskoRepository
+	 */
+	public function createServiceHorninaLokalitaSlovenskoRepository()
+	{
+		$service = new Todo\HorninaLokalitaSlovenskoRepository($this->getService('nette.database.default.context'));
+		return $service;
+	}
+
+
+	/**
 	 * @return Todo\HorninaObrazokRepository
 	 */
 	public function createServiceHorninaObrazokRepository()
@@ -240,6 +262,26 @@ class SystemContainer extends Nette\DI\Container
 	public function createServiceHorninaRepository()
 	{
 		$service = new Todo\HorninaRepository($this->getService('nette.database.default.context'));
+		return $service;
+	}
+
+
+	/**
+	 * @return Todo\HorninaStrukturaRepository
+	 */
+	public function createServiceHorninaStrukturaRepository()
+	{
+		$service = new Todo\HorninaStrukturaRepository($this->getService('nette.database.default.context'));
+		return $service;
+	}
+
+
+	/**
+	 * @return Todo\HorninaTexturaRepository
+	 */
+	public function createServiceHorninaTexturaRepository()
+	{
+		$service = new Todo\HorninaTexturaRepository($this->getService('nette.database.default.context'));
 		return $service;
 	}
 
@@ -446,7 +488,7 @@ class SystemContainer extends Nette\DI\Container
 	 */
 	public function createServiceRouter()
 	{
-		$service = $this->getService('28_App_RouterFactory')->createRouter();
+		$service = $this->getService('30_App_RouterFactory')->createRouter();
 		if (!$service instanceof Nette\Application\IRouter) {
 			throw new Nette\UnexpectedValueException('Unable to create service \'router\', value returned by factory is not Nette\\Application\\IRouter type.');
 		}
@@ -470,7 +512,7 @@ class SystemContainer extends Nette\DI\Container
 	 */
 	public function createServiceUser()
 	{
-		$service = new Nette\Security\User($this->getService('nette.userStorage'), $this->getService('31_Model_UserManager'));
+		$service = new Nette\Security\User($this->getService('nette.userStorage'), $this->getService('34_Model_UserManager'));
 		Nette\Diagnostics\Debugger::getBar()->addPanel(new Nette\Security\Diagnostics\UserPanel($service));
 		return $service;
 	}
