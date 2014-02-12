@@ -20,6 +20,30 @@
 	<th>Podskupina</th>
 	<td>{$hornina->ciselnikpodskupina->nazov}</td>
     </tr>
+    <tr>
+	<th>Textura</th>
+	<td>
+	{foreach $hornina->related('horninaTextura') as $hr}
+        {$hr->ref('ciselnikTextura','idCiselnikTextura')->nazov}
+        {sep}, {/sep}
+	{/foreach}
+    </tr>
+    <tr>
+	<th>Štruktúra</th>
+	<td>
+	{foreach $hornina->related('horninaStruktura') as $hr}
+        {$hr->ref('ciselnikStruktura','idCiselnikStruktura')->nazov}
+        {sep}, {/sep}
+	{/foreach}
+    </tr>
+    <tr>
+	<th>Lokalita</th>
+	<td>
+	{foreach $hornina->related('horninaLokalitaSlovensko') as $hr}
+        {$hr->ref('lokalitaSlovensko','idLokalitaSlovensko')->nazov}
+        {sep}, {/sep}
+	{/foreach}
+    </tr>
 
 </table>
     

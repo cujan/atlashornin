@@ -1,16 +1,16 @@
-<?php //netteCache[01]000428a:2:{s:4:"time";s:21:"0.99451300 1392117518";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:113:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\FrontModule\templates\Hornina\edit.latte";i:2;i:1391980735;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
+<?php //netteCache[01]000428a:2:{s:4:"time";s:21:"0.08052800 1392197586";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:113:"C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\FrontModule\templates\Hornina\edit.latte";i:2;i:1392197582;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:22:"released on 2013-12-31";}}}?><?php
 
 // source file: C:\Program Files\EasyPHP-DevServer-13.1VC9\data\localweb\atlashornin\app\FrontModule\templates\Hornina\edit.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'rmhmbpzw17')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'z4alms6asi')
 ;
 // prolog Nette\Latte\Macros\UIMacros
 //
 // block content
 //
-if (!function_exists($_l->blocks['content'][] = '_lb40992f2134_content')) { function _lb40992f2134_content($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+if (!function_exists($_l->blocks['content'][] = '_lb14052b7f75_content')) { function _lb14052b7f75_content($_l, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
 ?><h1>Detail</h1>
 
 <table id="detailTab">
@@ -29,6 +29,36 @@ if (!function_exists($_l->blocks['content'][] = '_lb40992f2134_content')) { func
     <tr>
 	<th>Podskupina</th>
 	<td><?php echo Nette\Templating\Helpers::escapeHtml($hornina->ciselnikpodskupina->nazov, ENT_NOQUOTES) ?></td>
+    </tr>
+    <tr>
+	<th>Textura</th>
+	<td>
+<?php $iterations = 0; foreach ($iterator = $_l->its[] = new Nette\Iterators\CachingIterator($hornina->related('horninaTextura')) as $hr) { ?>
+        <?php echo Nette\Templating\Helpers::escapeHtml($hr->ref('ciselnikTextura','idCiselnikTextura')->nazov, ENT_NOQUOTES) ?>
+
+        <?php if (!$iterator->isLast()) { ?>, <?php } ?>
+
+<?php $iterations++; } array_pop($_l->its); $iterator = end($_l->its) ?>
+    </tr>
+    <tr>
+	<th>Štruktúra</th>
+	<td>
+<?php $iterations = 0; foreach ($iterator = $_l->its[] = new Nette\Iterators\CachingIterator($hornina->related('horninaStruktura')) as $hr) { ?>
+        <?php echo Nette\Templating\Helpers::escapeHtml($hr->ref('ciselnikStruktura','idCiselnikStruktura')->nazov, ENT_NOQUOTES) ?>
+
+        <?php if (!$iterator->isLast()) { ?>, <?php } ?>
+
+<?php $iterations++; } array_pop($_l->its); $iterator = end($_l->its) ?>
+    </tr>
+    <tr>
+	<th>Lokalita</th>
+	<td>
+<?php $iterations = 0; foreach ($iterator = $_l->its[] = new Nette\Iterators\CachingIterator($hornina->related('horninaLokalitaSlovensko')) as $hr) { ?>
+        <?php echo Nette\Templating\Helpers::escapeHtml($hr->ref('lokalitaSlovensko','idLokalitaSlovensko')->nazov, ENT_NOQUOTES) ?>
+
+        <?php if (!$iterator->isLast()) { ?>, <?php } ?>
+
+<?php $iterations++; } array_pop($_l->its); $iterator = end($_l->its) ?>
     </tr>
 
 </table>

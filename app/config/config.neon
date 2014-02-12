@@ -37,3 +37,6 @@ services:
 	ciselnikFarbaRepository:  Todo\CiselnikFarbaRepository
 	horninaRepository:  Todo\HorninaRepository
 	horninaObrazokRepository:   Todo\HorninaObrazokRepository
+	horninaLokalitaSlovenskoRepository: Todo\HorninaLokalitaSlovenskoRepository
+	horninaStrukturaRepository: Todo\HorninaStrukturaRepository
+	horninaTexturaRepository: Todo\HorninaTexturaRepository

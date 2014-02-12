@@ -18,6 +18,13 @@ class HorninaPresenter extends \BasePresenter
 	private $ciselnikSkupinaRepository;
 	private $ciselnikFarbaRepository;
 	private $ciselnikPodskupinaRepository;
+	private $ciselnikTexturaRepository;
+	private $ciselnikStrukturaRepository;
+	private $lokalitaSlovenskoRepository;
+	
+	private $horninaLokalitaSlovenskoRepository;
+	private $horninaStrukturaRepository;
+	private $horninaTexturaRepository;
 	
 	
 	protected function startup() {
@@ -26,6 +33,12 @@ class HorninaPresenter extends \BasePresenter
 	    $this->ciselnikSkupinaRepository = $this->context->ciselnikSkupinaRepository;
 	    $this->ciselnikFarbaRepository = $this->context->ciselnikFarbaRepository;
 	    $this->ciselnikPodskupinaRepository = $this->context->ciselnikPodskupinaRepository;
+	    $this->ciselnikTexturaRepository = $this->context->ciselnikTexturaRepository;
+	    $this->ciselnikStrukturaRepository = $this->context->ciselnikStrukturaRepository;
+	    $this->lokalitaSlovenskoRepository = $this->context->lokalitaSlovenskoRepository;
+	    $this->horninaLokalitaSlovenskoRepository = $this->context->horninaLokalitaSlovenskoRepository;
+	    $this->horninaStrukturaRepository = $this->context->horninaStrukturaRepository;
+	    $this->horninaTexturaRepository = $this->context->horninaTexturaRepository;
 	}
 
 		public function renderDefault()
@@ -96,7 +109,9 @@ class HorninaPresenter extends \BasePresenter
 	   $skupina = $this->ciselnikSkupinaRepository->findAll()->fetchPairs('id','nazov');
    	   $farba = $this->ciselnikFarbaRepository->findAll()->fetchPairs('id','nazov');
 	   $podskupina = $this->ciselnikPodskupinaRepository->findAll()->fetchPairs('id','nazov');
-
+	   $textura = $this->ciselnikTexturaRepository->findAll()->fetchPairs('id','nazov');
+	   $struktura = $this->ciselnikStrukturaRepository->findAll()->fetchPairs('id','nazov');
+	   $lokalitaSlovensko = $this->lokalitaSlovenskoRepository->findAll()->fetchPairs('id','nazov');
 	   
 	    
 	    $form = new Form;
@@ -104,6 +119,9 @@ class HorninaPresenter extends \BasePresenter
 	    $form->addSelect('idCiselnikSkupina','Skupina',$skupina);
 	    $form->addSelect('idCiselnikFarba','Farba',$farba);
 	    $form->addSelect('idCiselnikPodskupina','Podskupina',$podskupina);
+	    $form->addCheckboxList('textura','textura',$textura);
+	    $form->addCheckboxList('struktura','struktura',$struktura);
+	    $form->addCheckboxList('lokalitaSlovensko','Lokalita Slovensko',$lokalitaSlovensko);
 	    
 	    
 	    $form->addSubmit('uloz','Uloz')->onClick[]=  callback($this, 'nazovFormSubmitted');
@@ -117,12 +135,44 @@ class HorninaPresenter extends \BasePresenter
 	{
 	    $values = $button->getForm()->getValues();
 	    $id = (int) $this->getParameter('id');
+	    $textury = $values->textura;
+	    $struktury = $values->struktura;
+	    $lokality = $values->lokalitaSlovensko;
+	    
+	    unset($values->textura);
+	    unset($values->struktura);
+	    unset($values->lokalitaSlovensko);
+	    
+	    
 	    if($id){
-		$this->horninaRepository->findById($id)->update($values);
+		//$this->horninaRepository->findById($idHornina)->update($values);
 		$this->flashMessage('Nazov upraveny');
 	    } else {
 		$this->horninaRepository->findAll()->insert($values);
 		$this->flashMessage('Nazov pridany');
+		
+		//vlozi zaznamy do tabulky horninaTextura
+		if ($textury != NULL) {
+		    foreach ($textury as $textura)
+		    {
+				$this->horninaTexturaRepository->vlozZaznam($idHornina,$textura);
+		    }    
+		}
+		//vlozi zaznamy do tabulky struktura
+		if ($struktury != NULL) {
+		    foreach ($struktury as $struktura)
+		    {
+				$this->horninaStrukturaRepository->vlozZaznam($idHornina,$struktura);
+		    }    
+		}
+		//vlozi zaznamy do tabulky horninaLokalitaSlovensko
+		if ($lokality != NULL) {
+		    foreach ($lokality as $lokalita)
+		    {
+				$this->horninaLokalitaSlovenskoRepository->vlozZaznam($idHornina,$lokalita);
+		    }    
+		}
+		
 	    }
 	    $this->redirect('default');
 	}
