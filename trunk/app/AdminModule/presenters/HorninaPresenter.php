@@ -49,14 +49,30 @@ class HorninaPresenter extends \BasePresenter
 	/************ edit ************/
 	public function  renderEdit($id = 0)
 	{
+	    $priradeneTextury = $this->horninaTexturaRepository->findBy(array('idHornina'=> $id))->fetchAll();
+	    
+	    
+	    
 	    $form = $this['polozkaForm'];
-	    if (!$form->isSubmitted()){
+	    $form['textura']->setDefaultValue($priradeneTextury);
+	    /**if (!$form->isSubmitted()){
 		$polozka = $this->horninaRepository->findById($id);
 		if(!$polozka){
 		    $this->error('Zaznam nenajdeny');
 		}
 		$form->setDefaults($polozka);
-	    }
+	    }*/
+	    
+	    $polozka = $this->horninaRepository->findById($id);
+	    $form->setDefaults($polozka);
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    dump($priradeneTextury);
 	}
 	
 	/*********** view delete ***********/
@@ -148,9 +164,9 @@ class HorninaPresenter extends \BasePresenter
 		//$this->horninaRepository->findById($idHornina)->update($values);
 		$this->flashMessage('Nazov upraveny');
 	    } else {
-		$this->horninaRepository->findAll()->insert($values);
+		$lastInsert = $this->horninaRepository->findAll()->insert($values);
 		$this->flashMessage('Nazov pridany');
-		
+		$idHornina = $lastInsert->id;
 		//vlozi zaznamy do tabulky horninaTextura
 		if ($textury != NULL) {
 		    foreach ($textury as $textura)
@@ -175,6 +191,7 @@ class HorninaPresenter extends \BasePresenter
 		
 	    }
 	    $this->redirect('default');
+	    
 	}
 
 	public function cancelFormSubmitted(){
