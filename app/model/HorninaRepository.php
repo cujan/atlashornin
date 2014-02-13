@@ -8,5 +8,6 @@ class HorninaRepository extends Repository {
     {
 	return $this->findAll()->get($id);
     }
+    
 }
 
