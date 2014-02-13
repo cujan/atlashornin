@@ -49,12 +49,33 @@ class HorninaPresenter extends \BasePresenter
 	/************ edit ************/
 	public function  renderEdit($id = 0)
 	{
+	    
+	    	    
+	    
 	    $priradeneTextury = $this->horninaTexturaRepository->findBy(array('idHornina'=> $id))->fetchAll();
+	    foreach ($priradeneTextury as $priradenaTextura){
+		$textura[] = $priradenaTextura->idCiselnikTextura;
+				 
+	    }
 	    
+	    $priradeneStruktury = $this->horninaStrukturaRepository->findBy(array('idHornina'=> $id))->fetchAll();
+	    foreach ($priradeneStruktury as $priradenaStruktura){
+		$struktura[] = $priradenaStruktura->idCiselnikStruktura;
+				 
+	    }
 	    
+	    $priradeneLokality = $this->horninaLokalitaSlovenskoRepository->findBy(array('idHornina'=> $id))->fetchAll();
+	    foreach ($priradeneLokality as $priradenaLokalita){
+		$lokalita[] = $priradenaLokalita->idLokalitaSlovensko;
+				 
+	    }
+	   
 	    
-	    $form = $this['polozkaForm'];
-	    $form['textura']->setDefaultValue($priradeneTextury);
+	     $form = $this['polozkaForm'];
+	     $form['textura']->setDefaultValue($textura);
+	     $form['struktura']->setDefaultValue($struktura);
+	     $form['lokalitaSlovensko']->setDefaultValue($lokalita);
+	   
 	    /**if (!$form->isSubmitted()){
 		$polozka = $this->horninaRepository->findById($id);
 		if(!$polozka){
@@ -67,12 +88,7 @@ class HorninaPresenter extends \BasePresenter
 	    $form->setDefaults($polozka);
 	    
 	    
-	    
-	    
-	    
-	    
-	    
-	    dump($priradeneTextury);
+	     
 	}
 	
 	/*********** view delete ***********/
@@ -161,7 +177,21 @@ class HorninaPresenter extends \BasePresenter
 	    
 	    
 	    if($id){
-		//$this->horninaRepository->findById($idHornina)->update($values);
+		$this->horninaRepository->findById($id)->update($values);
+		$this->horninaTexturaRepository->deleteBy(array('idHornina'=> $id));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		$this->flashMessage('Nazov upraveny');
 	    } else {
 		$lastInsert = $this->horninaRepository->findAll()->insert($values);
